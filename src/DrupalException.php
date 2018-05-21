@@ -2,6 +2,8 @@
 
 namespace DrupalException;
 
+use Exception;
+
 class DrupalException extends Exception{
   public $_data;
   
